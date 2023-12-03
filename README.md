@@ -18,3 +18,7 @@
 
 -   Providing automatic GUI making processes for mainly used programming languages.
 -   Creating efficient tools to automate the laborious aspects of subtitle editing.
+
+## Screenshots
+
+[Picture Dictionary](miscellaneous/picture-dictionary)
