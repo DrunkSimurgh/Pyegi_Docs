@@ -6,7 +6,7 @@ Currently, in order to write a python script for subtitle editing, you need to i
 import Pyegi
 ```
 
-You can add [PyonFX](https://github.com/CoffeeStraw/PyonFX) library to dependencies of the `pyproject.toml` file which helps with subtitle editing. In order to receive the lines from Aegisub, you need to include this code:
+Pyegi's internal functions depend on PyonFX to process ass lines. You should add [PyonFX](https://github.com/CoffeeStraw/PyonFX) library to dependencies of the `pyproject.toml` file which helps with subtitle editing. In order to receive the lines from Aegisub, you need to include this code:
 
 ```python
 from pyonfx import *
