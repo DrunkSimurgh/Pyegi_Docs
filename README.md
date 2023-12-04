@@ -23,6 +23,8 @@
 
 [Picture Dictionary](miscellaneous/picture-dictionary)
 
+<figure><img src=".gitbook/assets/Main Window.png" alt=""><figcaption><p>Pyegi's Main Window</p></figcaption></figure>
+
 <figure><img src=".gitbook/assets/Scripts Management.png" alt=""><figcaption><p>Pyegi's Scripts Management Window</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/Colormania GUI.png" alt=""><figcaption><p>Colormania's GUI as an example</p></figcaption></figure>
