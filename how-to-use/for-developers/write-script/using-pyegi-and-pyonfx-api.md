@@ -6,7 +6,7 @@ Currently, in order to write a python script for subtitle editing, you need to i
 import Pyegi
 ```
 
-We currently support [PyonFX](https://github.com/CoffeeStraw/PyonFX) library which helps with subtitle editing. In order to receive the lines from Aegisub, you need to include this code:
+Pyegi's internal functions depend on PyonFX to process ass lines. You should add [PyonFX](https://github.com/CoffeeStraw/PyonFX) library to dependencies of the `pyproject.toml` file which helps with subtitle editing. In order to receive the lines from Aegisub, you need to include this code:
 
 ```python
 from pyonfx import *
@@ -33,9 +33,9 @@ Finally, you need to send all the prepared lines back to Aegisub with the follow
 Pyegi.create_output_file()
 ```
 
-Here, you may include the optional arguments `transform_``original` and `insert_new`; e.g:
+Here, you may include the optional arguments `transform_original` and `insert_new`; e.g:
 
-```
+```python
 Pyegi.create_output_file(transform_original=Transform.COMMENTED, insert_new=Location.BELOW)
 ```
 
@@ -43,7 +43,7 @@ where `transform_original` deals with the state of the original lines which the 
 
 There is also a function for accessing the state of your \[automatically generated] GUI:
 
-```
+```python
 Pyegi.get_parameters()
 ```
 
@@ -51,7 +51,7 @@ This function loads the contents of the file containing the current states of th
 
 Finally, there's a function to access the properties of the project you have open in your Aegisub:
 
-```
+```python
 Pyegi.get_project_properties()
 ```
 
