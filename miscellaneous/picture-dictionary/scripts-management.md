@@ -1,3 +1,3 @@
 # Scripts Management
 
-<figure><img src="../../.gitbook/assets/01 - scripts management.png" alt=""><figcaption><p>Pyegi's Scripts Management Window</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Scripts Management.png" alt=""><figcaption><p>Pyegi's Scripts Management Window</p></figcaption></figure>

@@ -1,4 +1,3 @@
 # Main
 
-<figure><img src="../../.gitbook/assets/main window.png" alt=""><figcaption><p>Pyegi's Main Window</p></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/Main Window.png" alt=""><figcaption><p>Pyegi's Main Window</p></figcaption></figure>
